@@ -1,0 +1,281 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+a{
+    text-decoration: none;
+}
+
+ul{
+    list-style-type: none;
+}
+
+html{
+    font-family: 'Catamaran', sans-serif;
+}
+
+.container-fluid{
+    max-width: 1500px;
+    margin: auto;
+}
+
+.container{
+    max-width: 800px;
+    margin: auto;
+}
+
+/* Text */
+
+.text-white{
+    color: #fff;
+}
+
+.text-dark{
+    color: #333;
+}
+
+.text-blue{
+    color: #5865f2;
+}
+
+.text-center{
+    text-align: center;
+}
+
+/* Nav */
+
+.menu{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 80px;
+}
+
+.nav-list{
+    display: flex;
+    width: 20%;
+    justify-content: space-between;
+}
+
+.nav-list .nav-item .nav-link{
+    font-weight: 600;
+}
+
+.nav-list .nav-item .nav-link:hover{
+    border-bottom: 1px solid #5865f2;
+}
+
+
+
+.nav-brand img{
+    width: 128px;
+}
+
+header{
+    background: url(../images/hero.png);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 85vh;
+}
+
+.open-discord a{
+    background: #fff;
+    border-radius: 35px;
+    padding: 7px 13px;
+    font-size: 0.90rem;
+    font-weight: 500;
+    color: blue;
+    transition: all 1s;
+}
+
+.open-discord a:hover{
+    color: #5865f2 !important;
+    box-shadow: 3px 3px 30px #333;
+}
+
+.hero-content{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 50vh;
+    padding-top: 100px;
+}
+
+
+.hero-content .download-btn{
+    display: flex;
+    flex-direction: row;
+    font-weight: 400;
+}
+
+.hero-content h1{
+    font-weight: 700;
+    font-size: 3rem;
+    text-align: center;
+}
+
+.hero-content p{
+    font-size: 1.25rem;
+}
+
+.hero-content .btn{
+    padding-right: 20px;
+    padding-top: 40px;
+}
+
+.hero-content .btn-win a{
+    background: #fff;
+    color: #333;
+    font-size: 1.25rem;
+    border-radius: 35px;
+    padding: 8px 50px;
+    transition: all 1s;
+}
+
+.hero-content .btn-web a{
+    background: #333;
+    color: #fff;
+    font-size: 1.25rem;
+    border-radius: 35px;
+    padding: 8px 25px;
+    transition: all 1s;
+}
+
+.hero-content .btn-win a:hover{
+    color: #5865f2;
+    box-shadow: 3px 3px 30px #333;
+}
+
+.hero-content .btn-web a:hover{
+    background: #444;
+    box-shadow: 3px 3px 30px #333;
+}
+
+#content-section{
+    margin-top: 120px;
+}
+
+.content{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 80%;
+    margin: auto;
+}
+
+
+.content-1{
+    display: flex;
+    padding-bottom: 300px;
+}
+
+.content-1 .content-1-article{
+    display: flex;
+    flex-direction: column;
+}
+
+.content-1 .content-1-article h2{
+    font-size: 4.50rem;
+    line-height: 70px;
+}
+
+.content-1 .content-1-article p{
+    font-size: 1.10rem;
+    padding-top: 20px;
+}
+
+.content-1{
+    display: flex;
+    padding-bottom: 300px;
+}
+
+.content-1 .content-1-article{
+    display: flex;
+    flex-direction: column;
+}
+
+.content-2{
+    display: flex;
+    padding-bottom: 300px;
+}
+
+.content-2 .content-2-article h2{
+    font-size: 4.50rem;
+    line-height: 70px;
+}
+
+.content-2 .content-2-article p{
+    font-size: 1.10rem;
+    padding-top: 20px;
+}
+
+.content-3{
+    display: flex;
+    padding-bottom: 300px;
+}
+
+.content-3 .content-3-article{
+    display: flex;
+    flex-direction: column;
+}
+
+.content-3 .content-3-article h2{
+    font-size: 4.50rem;
+    line-height: 70px;
+}
+
+.content-3 .content-3-article p{
+    font-size: 1.10rem;
+    padding-top: 20px;
+}
+
+.content-4{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+}
+
+.content-4 h2{
+    font-size: 4.50rem;
+    line-height: 70px;
+}
+
+.content-4 p{
+    font-size: 1.10rem;
+    padding-top: 20px;
+}
+
+.content-4 .content-start .btn-win a{
+    background: #5865f2;
+    color: #fff;
+    font-size: 1.25rem;
+    border-radius: 35px;
+    padding: 8px 50px;
+    transition: all .7s;
+}
+
+.content-4 .content-start .btn-win a:hover{
+    box-shadow: 2px 2px 30px #333;
+    background: #8271ee;
+}
+
+.content-4 .content-start{
+    margin: 80px 0;
+}
+
+.content-4 .content-start .btn{
+    padding: 30px 0;
+}
+
+.content-4 .content-start h3{
+    font-size: 2.25rem;
+    background: url(../images/content-ready.svg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: contain;
+}
